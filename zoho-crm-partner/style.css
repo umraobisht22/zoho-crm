@@ -1067,6 +1067,13 @@ body {
   gap: 50px;
 }
 
+ .hide-mobile {
+    display: flex;
+  }
+  .show-mobile{
+    display: none;
+  }
+
 .hands {
   width: 480px;
 }
@@ -2289,7 +2296,7 @@ body {
     text-align: left !important;
   }
 
-  .brand-card .whiteparah{
+  .brand-card .whiteparah {
     text-align: left !important;
   }
 
@@ -2305,5 +2312,12 @@ body {
 
   .brand-card-image {
     width: 26px;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+  .show-mobile{
+    display: block;
   }
 }
