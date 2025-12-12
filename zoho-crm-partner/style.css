@@ -141,7 +141,7 @@ small {
 }
 
 .intro-text {
-  font-size: 16px;
+  font-size: 20px;
   margin: 18px 0;
   font-weight: 500;
   padding-bottom: 10px;
@@ -161,6 +161,7 @@ small {
   width: 100%;
   font-size: 17px;
   display: flex;
+  padding-bottom: 8px;
 }
 
 .feature-item i {
@@ -193,7 +194,7 @@ small {
   /* padding-left: 8rem; */
   /* padding-right: 8rem; */
   align-items: center;
-  max-width: 1440px;
+  max-width: 1200px;
 }
 
 .whyImg {
@@ -538,7 +539,7 @@ video {
   /* padding-left: 12rem;
     padding-right: 12rem; */
   gap: 90px;
-  max-width: 1440px;
+  max-width: 1200px;
 }
 .step-lft {
   width: 40%;
@@ -577,7 +578,7 @@ video {
   padding-block: 6rem;
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  width: 1200px;
 }
 
 .carousel-slide {
@@ -819,10 +820,19 @@ body {
 }
 
 .event-container {
-  margin: 0 auto;
-  padding: 40px 0rem;
+    margin: 0 auto;
+    padding: 40px 0rem;
+    text-align: center;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-container .blueheadingbig{
+  width: 80%;
   text-align: center;
-  width: 1440px;
 }
 
 /* .bg-img{
@@ -2342,6 +2352,14 @@ body {
     height: 120px;
     box-sizing: border-box;
     perspective: 1000px;
+  }
+
+  .event-cards{
+    width: 100%;
+  }
+
+  .event-container .blueheadingbig{
+    width: 100%;
   }
 
   .event-card-wrapper {
