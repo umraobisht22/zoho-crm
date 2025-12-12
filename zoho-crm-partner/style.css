@@ -1344,7 +1344,7 @@ body {
 }
 
 .blueheading-2v {
-  font-weight: 500;
+  font-weight: 600;
 
   max-width: 550px;
   height: auto;
@@ -2445,6 +2445,7 @@ body {
   .blueheading-2v.mb20 {
     font-size: 28px;
     line-height: 34px;
+    font-weight: 600;
   }
 
   .btn-fix {
