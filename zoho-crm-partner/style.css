@@ -1308,6 +1308,11 @@ body {
   line-height: 33px;
   font-weight: 600;
   color: #ffffff;
+  cursor: pointer;
+}
+
+.redbutton:hover{
+  background: #e93622;
 }
 
 .new-btn {
@@ -1319,12 +1324,17 @@ body {
 
 .redbutton2 {
   background: #de5547;
-  padding: 20px 40px;
+  padding: 16px 24px;
   border: none;
   border-radius: 8px;
-  font-size: 22px;
+  font-size:18px;
   font-weight: 600;
   color: #ffffff;
+  cursor: pointer;
+}
+
+.redbutton2:hover{
+  background: #e93622;
 }
 
 .zohoImg {
